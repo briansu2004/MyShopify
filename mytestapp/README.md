@@ -30,3 +30,25 @@ shopify populate products
 ![01_gem_install_shopify-cli.png](images/01_gem_install_shopify-cli.png)
 
 ![02_ruby_ver.png](images/02_ruby_ver.png)
+
+![03_shopify-cli_ver.png](images/03_shopify-cli_ver.png)
+
+![04_login.png](images/04_login.png)
+
+![05_create_node.png](images/05_create_node.png)
+
+![06_MyTestApp.png](images/06_MyTestApp.png)
+
+![07_node_serve.png](images/07_node_serve.png)
+
+![08_store1.png](images/08_store1.png)
+
+![09_store2.png](images/09_store2.png)
+
+![10_populate_products.png](images/10_populate_products.png)
+
+![11_all_products.png](images/11_all_products.png)
+
+![12_select_products1.png](images/12_select_products1.png)
+
+![13_select_products2.png](images/13_select_products2.png)
