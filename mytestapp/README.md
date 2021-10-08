@@ -1,30 +1,32 @@
-# Shopify App Node
+# Shopify Store with React
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
-[![Build Status](https://travis-ci.com/Shopify/shopify-app-node.svg?branch=master)](https://travis-ci.com/Shopify/shopify-app-node)
+## Created an web app with Shopify App CLI, Node.js and React
 
-Boilerplate to create an embedded Shopify app made with Node, [Next.js](https://nextjs.org/), [Shopify-koa-auth](https://github.com/Shopify/quilt/tree/master/packages/koa-shopify-auth), [Polaris](https://github.com/Shopify/polaris-react), and [App Bridge React](https://shopify.dev/tools/app-bridge/react-components).
+- Installed and set up the App CLI with Ruby
+- Embedded the store app into the Shopify admin
+- Built an interface with Shopify Polaris to access products
+- Added React components to the store app
+- Used ngrok to expose the local web server to the Internet
 
-## Installation
+## Install
 
-Using the [Shopify-App-CLI](https://github.com/Shopify/shopify-app-cli) run:
-
-```sh
-~/ $ shopify node create -n APP_NAME
+```
+install rubyinstaller-devkit-3.0.2-1-x64.exe
+install MSYS2 MSYS
+gem install shopify-cli
+shopify version
+2.6.3
+shopify help
+shopify login
+shopify login --store=SuShopStore
+shopify node create --name=MyTestApp
+cd MyTestApp
+shopify serve
+shopify populate products
 ```
 
-Or, fork and clone repo
+## Screenshot
 
-## Requirements
+![01_gem_install_shopify-cli.png](images/01_gem_install_shopify-cli.png)
 
-- If you don’t have one, [create a Shopify partner account](https://partners.shopify.com/signup).
-- If you don’t have one, [create a Development store](https://help.shopify.com/en/partners/dashboard/development-stores#create-a-development-store) where you can install and test your app.
-- In the Partner dashboard, [create a new app](https://help.shopify.com/en/api/tools/partner-dashboard/your-apps#create-a-new-app). You’ll need this app’s API credentials during the setup process.
-
-## Usage
-
-This repository is used by [Shopify-App-CLI](https://github.com/Shopify/shopify-app-cli) as a scaffold for Node apps. You can clone or fork it yourself, but it’s faster and easier to use Shopify App CLI, which handles additional routine development tasks for you.
-
-## License
-
-This respository is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+![02_ruby_ver.png](images/02_ruby_ver.png)
